@@ -1,0 +1,38 @@
+2025-05-11 16:42:05,684 - ERROR - Configuration file traffic_config.json not found.
+2025-05-11 16:42:05,687 - INFO - Created default configuration file: traffic_config.json
+2025-05-11 16:43:00,967 - ERROR - Configuration file traffic_config.json not found.
+2025-05-11 16:43:00,970 - INFO - Created default configuration file: traffic_config.json
+2025-05-11 16:43:00,970 - INFO - Sending request to https://example.com from social_media/facebook
+2025-05-11 16:43:01,927 - INFO - Response status: 200
+2025-05-11 16:43:01,928 - DEBUG - Sleeping for 2.71 seconds
+2025-05-11 16:43:04,634 - INFO - Completed 1/10 requests
+2025-05-11 16:43:04,641 - INFO - Sending request to https://example.com from social_media/twitter
+2025-05-11 16:43:04,944 - INFO - Response status: 200
+2025-05-11 16:43:04,945 - DEBUG - Sleeping for 3.66 seconds
+2025-05-11 16:43:08,610 - INFO - Completed 2/10 requests
+2025-05-11 16:43:08,610 - INFO - Sending request to https://example.com from search_engines/yandex
+2025-05-11 16:43:08,925 - INFO - Response status: 200
+2025-05-11 16:43:08,925 - DEBUG - Sleeping for 4.60 seconds
+2025-05-11 16:43:13,524 - INFO - Completed 3/10 requests
+2025-05-11 16:43:13,525 - INFO - Sending request to https://example.com from search_engines/google
+2025-05-11 16:43:13,815 - INFO - Response status: 200
+2025-05-11 16:43:13,816 - DEBUG - Sleeping for 3.57 seconds
+2025-05-11 16:43:17,383 - INFO - Completed 4/10 requests
+2025-05-11 16:43:17,384 - INFO - Sending request to https://example.com from search_engines/google
+2025-05-11 16:43:17,670 - INFO - Response status: 200
+2025-05-11 16:43:17,670 - DEBUG - Sleeping for 2.64 seconds
+2025-05-11 16:43:20,317 - INFO - Completed 5/10 requests
+2025-05-11 16:43:20,321 - INFO - Sending request to https://example.com from search_engines/yandex
+2025-05-11 16:43:20,710 - INFO - Traffic simulation stopped by user
+2025-05-11 16:43:20,711 - INFO - Traffic simulation completed. Sent 5 requests.
+2025-05-11 16:52:33,221 - INFO - Sending request to https://example.com from social_media/twitter
+2025-05-11 16:52:34,237 - INFO - Response status: 200
+2025-05-11 16:52:35,006 - INFO - Simulating user interaction: scroll to 64% over 5.5s, dwell for 37.1s
+2025-05-11 16:53:14,674 - INFO - Sending request to https://example.com from social_media/facebook
+2025-05-11 16:53:15,045 - INFO - Response status: 200
+2025-05-11 16:53:17,474 - INFO - Simulating user interaction: scroll to 60% over 6.3s, dwell for 78.3s
+2025-05-11 16:54:39,219 - INFO - Sending request to https://example.com from social_media/linkedin
+2025-05-11 16:54:39,563 - INFO - Response status: 200
+2025-05-11 16:54:42,397 - INFO - Simulating user interaction: scroll to 62% over 8.2s, dwell for 44.7s
+2025-05-11 16:54:49,540 - INFO - Traffic simulation stopped by user
+2025-05-11 16:54:49,541 - INFO - Traffic simulation completed. Sent 2 requests.

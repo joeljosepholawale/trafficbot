@@ -1,0 +1,121 @@
+{
+    "target_urls": [
+        "https://example.com"
+    ],
+    "request_interval": {
+        "min": 1,
+        "max": 5
+    },
+    "sources": {
+        "search_engines": {
+            "google": {
+                "weight": 40,
+                "domains": [
+                    "www.google.com",
+                    "google.com"
+                ],
+                "referrer_templates": [
+                    "https://www.google.com/search?q={query}"
+                ],
+                "queries": [
+                    "example website",
+                    "sample site"
+                ]
+            },
+            "bing": {
+                "weight": 20,
+                "domains": [
+                    "www.bing.com",
+                    "bing.com"
+                ],
+                "referrer_templates": [
+                    "https://www.bing.com/search?q={query}"
+                ],
+                "queries": [
+                    "example website",
+                    "sample site"
+                ]
+            },
+            "yandex": {
+                "weight": 10,
+                "domains": [
+                    "yandex.com",
+                    "yandex.ru"
+                ],
+                "referrer_templates": [
+                    "https://yandex.com/search/?text={query}"
+                ],
+                "queries": [
+                    "example website",
+                    "sample site"
+                ]
+            }
+        },
+        "social_media": {
+            "facebook": {
+                "weight": 30,
+                "domains": [
+                    "www.facebook.com",
+                    "facebook.com",
+                    "m.facebook.com"
+                ],
+                "referrer_templates": [
+                    "https://www.facebook.com/",
+                    "https://m.facebook.com/"
+                ]
+            },
+            "twitter": {
+                "weight": 20,
+                "domains": [
+                    "twitter.com",
+                    "t.co"
+                ],
+                "referrer_templates": [
+                    "https://twitter.com/",
+                    "https://t.co/"
+                ]
+            },
+            "instagram": {
+                "weight": 15,
+                "domains": [
+                    "instagram.com",
+                    "www.instagram.com"
+                ],
+                "referrer_templates": [
+                    "https://www.instagram.com/"
+                ]
+            },
+            "linkedin": {
+                "weight": 15,
+                "domains": [
+                    "linkedin.com",
+                    "www.linkedin.com"
+                ],
+                "referrer_templates": [
+                    "https://www.linkedin.com/feed/"
+                ]
+            }
+        },
+        "direct": {
+            "weight": 20
+        }
+    },
+    "user_agents": {
+        "desktop": {
+            "weight": 60,
+            "agents": [
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0"
+            ]
+        },
+        "mobile": {
+            "weight": 40,
+            "agents": [
+                "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+                "Mozilla/5.0 (Android 11; Mobile; rv:68.0) Gecko/68.0 Firefox/88.0",
+                "Mozilla/5.0 (Linux; Android 11; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36"
+            ]
+        }
+    }
+}
