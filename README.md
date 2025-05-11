@@ -16,7 +16,7 @@ A professional Python script that simulates realistic web traffic from various s
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/web-traffic-simulator.git
+git clone https://github.com/joeljosepholawale/trafficbot
 cd web-traffic-simulator
 ```
 
